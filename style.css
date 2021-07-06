@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
@@ -50,7 +51,7 @@ span {
 /* navbar  */
 
 #navbar {
-  background-color: black;
+  background-color: rgb(54, 50, 50);
   text-decoration: none;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -110,7 +111,8 @@ span {
   padding-bottom: 50px;
   padding-right: 80px;
   font-size: 20px;
-  color: rgba(24, 25, 31, 1);
+  line-height: 1.5em;
+  color: rgba(37, 37, 37, 1);
 }
 
 .text a {
@@ -194,10 +196,75 @@ span {
   padding-bottom: 16px;
 }
 
+/* contact  */
+
+#contact {
+  background-color: rgba(87, 97, 97, 0.356);
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.contact-form input {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.contact-header {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 20px 0 24px 0;
+  color: rgba(112, 112, 112, 1);
+}
+
+.contact-items {
+  text-align: center;
+  margin: -0px 0 30px 0px;
+  flex: 6;
+}
+
+.contact-items input,
+.contact-items textarea {
+  padding: 20px 16px;
+}
+
+.flexible-contact-items {
+  display: flex;
+  gap: 20px;
+}
+
+.submit-button {
+  text-decoration: none;
+  background-image: linear-gradient(#c03838, #ffa500);
+  color: white;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 16px 40px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-image: linear-gradient(#fdbb2d, #c32277);
+  color: rgba(0, 0, 0, 0.445);
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
 /* footer */
 
 #footer {
-  background-color: black;
+  background-color: rgb(54, 50, 50);
   color: white;
   text-align: center;
   padding: 40px 280px 40px 280px;
