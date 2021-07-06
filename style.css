@@ -211,6 +211,7 @@ span {
 .contact-form input {
   width: 100%;
   border-radius: 10px;
+  border: none;
 }
 
 .contact-form textarea {
@@ -218,6 +219,7 @@ span {
   padding: 16px;
   margin-bottom: 10px;
   border-radius: 10px;
+  border: none;
 }
 
 .contact-header {
@@ -256,7 +258,7 @@ span {
 
 .submit-button:hover {
   background-image: linear-gradient(#fdbb2d, #c32277);
-  color: rgba(0, 0, 0, 0.445);
+  color: rgb(0, 0, 0);
   font-size: 1.2em;
   font-weight: 700;
 }
